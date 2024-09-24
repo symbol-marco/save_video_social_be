@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "save-video-social-be"
+version = "0.1.0"
+description = ""
+authors = ["duongnh <duongnh@vhmt.vn>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.115.0"
+uvicorn = "^0.30.6"
+yt-dlp = "^2024.8.6"
+sqlalchemy = "^2.0.35"
+alembic = "^1.13.3"
+sqlmodel = "^0.0.22"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
